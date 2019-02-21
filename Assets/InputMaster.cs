@@ -66,7 +66,6 @@ public class InputMaster : InputActionAssetReference
     public InputControlScheme kmScheme
     {
         get
-
         {
             if (m_kmSchemeIndex == -1) m_kmSchemeIndex = asset.GetControlSchemeIndex("k+m");
             return asset.controlSchemes[m_kmSchemeIndex];
